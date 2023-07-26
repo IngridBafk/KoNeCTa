@@ -2,7 +2,6 @@ function details(id) {
     alert(id)
 }
 
-// Algunas fotos no salen porque el formato con el que vienen en el url no es el formato que tengo yo en mí ordenador.
 fetch("https://452a6db4-008b-4e47-b8ab-c89698a8b56c.mock.pstmn.io/events")
     .then(res => res.json())
     .then(objJson => {
