@@ -2,7 +2,7 @@ function details(id) {
     alert(id)
 }
 
-fetch("https://452a6db4-008b-4e47-b8ab-c89698a8b56c.mock.pstmn.io/events")
+fetch("https://ew6ohmfse7.execute-api.us-east-1.amazonaws.com/KoNeCTa/events")
     .then(res => res.json())
     .then(objJson => {
 
