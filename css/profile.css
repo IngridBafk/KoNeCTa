@@ -1,0 +1,22 @@
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text, .card-link {
+    color: #333;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.btn-primary {
+    margin-left: 30px;
+}
+
+
