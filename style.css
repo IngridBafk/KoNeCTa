@@ -78,7 +78,7 @@ h1 {
 }
 
 /* HOME */
-#events,
+#event,
 #profile {
   width: 65%; /* Establece el ancho deseado para las tarjetas */
   margin: 0 auto 80px; /* Centra horizontalmente y agrega un margen inferior de 80px */
@@ -91,12 +91,12 @@ h1 {
   align-items: center;
 }
 
-#events .card-body h3.card-title,
+#event .card-body h3.card-title,
 #profile .card-body h3.card-title {
   text-align: center;
 }
 
-#events .card-body a.btn-primary,
+#event .card-body a.btn-primary,
 #profile .card-body a.btn-primary {
   display: block; /* Change display to block to center horizontally */
   margin: 10px auto 10px auto; /* Center horizontally with some vertical spacing */
