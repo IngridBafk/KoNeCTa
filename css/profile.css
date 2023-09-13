@@ -1,0 +1,41 @@
+.card {
+    margin-bottom: 20px;
+    width: auto;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text, .card-link {
+    color: #333;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.btn-primary {
+    margin-left: 30px;
+}
+
+.profile-img-container,
+.profile-personal {
+    width: 300px; /* Ajusta el tamaño según tu preferencia */
+    height: 300px; /* Ajusta el tamaño según tu preferencia */
+}
+
+
+.profile-personal,
+.profile-about-me,
+.profile-hobbies {
+    background-color: #403f3f;
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff; /* Color del texto */
+    margin-bottom: 20px; /* Espacio entre los elementos */
+}
+
+
+
