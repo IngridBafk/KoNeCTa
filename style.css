@@ -9,6 +9,10 @@ body {
   background-color: #FBC103;
 }
 
+#dropdown a.navbar-brand {
+  margin: 0 25px; /* Agregué un poco de margen en los elementos del navbar */
+}
+
 #logo {
   display: flex;
   margin: 0 auto;
@@ -76,10 +80,8 @@ h1 {
 /* HOME */
 #events,
 #profile {
-  width: 65%;
-  /* Establece el ancho deseado para las tarjetas */
-  margin: 0 auto 30px;
-  /* Centra horizontalmente y agrega un margen inferior de 30px */
+  width: 65%; /* Establece el ancho deseado para las tarjetas */
+  margin: 0 auto 80px; /* Centra horizontalmente y agrega un margen inferior de 80px */
 }
 
 #map {
@@ -87,4 +89,30 @@ h1 {
   margin-bottom: 40px;
   margin-top: 40px;
   align-items: center;
+}
+
+#events .card-body h3.card-title,
+#profile .card-body h3.card-title {
+  text-align: center;
+}
+
+#events .card-body a.btn-primary,
+#profile .card-body a.btn-primary {
+  display: block; /* Change display to block to center horizontally */
+  margin: 10px auto 10px auto; /* Center horizontally with some vertical spacing */
+}
+
+#map .col-md-7 .card-img-top {
+  border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+}
+
+#map .col-md-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+#map .col-md-3 .btn.btn-primary {
+  font-size: 18px; /* Increase font size to make the button bigger */
+  padding: 10px 20px; /* Adjust padding to increase button size */
 }
