@@ -1,0 +1,80 @@
+[
+    {
+        "eventID": 1,
+        "eventName": "Graffiti",
+        "eventType": "Arte Urbano",
+        "description": "TV Boy realizará un mural en defensa de los ataques homófobos ocurridos en el mes de Junio",
+        "img": "./img/Graffitti.jpeg",
+        "location": "Carrer Sant Pere més Baix, 70, 08003, Barcelona",
+        "locationHtml": "https://goo.gl/maps/BeF9NBvyn8jmjHvM7",
+        "startingDate": "12/08/2023",
+        "finishingDate": "12/08/2023",
+        "startingTime": "19:00",
+        "finishingTime": "22:00"
+    },
+    {
+        "eventID": 2,
+        "eventName": "Exposició Parc Ciutadella",
+        "eventType": "Cultural",
+        "description": "Exposición de obras de diferentes artistas vinculadas al constante cambio de la cultura",
+        "img": "./img/Exposicio.jpg",
+        "location": "Passeig de Picasso, 21, 08003, Barcelona",
+        "locationHtml": "https://goo.gl/maps/rqxjMRnSX2uufEFG8",
+        "startingDate": "10/08/2023",
+        "finishingDate": "13/08/2023",
+        "startingTime": "10:00",
+        "finishingTime": "20:00"
+    },
+    {
+        "eventID": 3,
+        "eventName": "Llums BCN",
+        "eventType": "Art",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "img": "./img/Llums.png",
+        "location": "Poblenou, 08018, Barcelona",
+        "locationHtml": "https://goo.gl/maps/oFo1ft8AueihjdZR6",
+        "startingDate": "03/02/2023",
+        "finishingDate":  "05/02/2023",
+        "startingTime": "18:00",
+        "finishingTime": "23:00"
+    },
+    {
+        "eventID": 4,
+        "eventName": "La danza toma la calle",
+        "eventType": "Danza",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "img": "./img/Danza.png",
+        "location": "Plaza Orfila, 08030, Barcelona",
+        "locationHtml": "https://goo.gl/maps/kkxYhubvdsLjJDAv7",
+        "startingDate": "29/09/2023",
+        "finishingDate":  "29/09/2023",
+        "startingTime": "17:00",
+        "finishingTime": "19:00"
+    },
+    { 
+        "eventID": 5,
+        "eventName": "Concierto Tarmac",
+        "eventType": "Rock",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "img": "./img/rock.jpg",
+        "location": "Plaça de Sant Pere, 1 08003, Barcelona",
+        "locationHtml": "https://goo.gl/maps/UMaML2HW7xMUdePn9",
+        "startingDate": "01/08/2023",
+        "finishingDate":  "01/08/2023",
+        "startingTime": "22:00",
+        "finishingTime": "23.59"
+    },
+    { 
+        "eventID": 6,
+        "eventName": "Teatre a la fresca",
+        "eventType": "Comedia",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "img": "./img/teatre.jpg",
+        "location": "Plaça del Nen de la Rutlla, sn, 08041, Barcelona",
+        "locationHtml": "https://goo.gl/maps/SDZMEerc1PDU4ckF9",
+        "startingDate": "25/07/2023",
+        "finishingDate":  "25/07/2023",
+        "startingTime": "21.00",
+        "finishingTime": "23.00"
+    }
+]
