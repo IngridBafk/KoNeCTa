@@ -23,6 +23,7 @@ body {
 h1 {
   text-align: center;
   color: whitesmoke;
+  margin-bottom: 30px;
 }
 
 .card {
@@ -43,6 +44,23 @@ h1 {
 #footer {
   background-color: #FBC103;
   height: 10vh;
+}
+
+/* FILTER EVENTS LIST */
+#filter {
+  margin-bottom: 20px;
+}
+
+#filter h4 {
+  color: whitesmoke;
+  text-align: center;
+  line-height: 50px;
+}
+
+#eventFilter {
+  width: 80%; /* Use the entire available width */
+  border-radius: 10px;
+  padding: 10px;
 }
 
 /* LOGIN */
@@ -78,7 +96,7 @@ h1 {
 }
 
 /* HOME */
-#event,
+#events,
 #profile {
   width: 65%; /* Establece el ancho deseado para las tarjetas */
   margin: 0 auto 80px; /* Centra horizontalmente y agrega un margen inferior de 80px */
@@ -91,12 +109,12 @@ h1 {
   align-items: center;
 }
 
-#event .card-body h3.card-title,
+#events .card-body h3.card-title,
 #profile .card-body h3.card-title {
   text-align: center;
 }
 
-#event .card-body a.btn-primary,
+#events .card-body a.btn-primary,
 #profile .card-body a.btn-primary {
   display: block; /* Change display to block to center horizontally */
   margin: 10px auto 10px auto; /* Center horizontally with some vertical spacing */
@@ -116,3 +134,4 @@ h1 {
   font-size: 18px; /* Increase font size to make the button bigger */
   padding: 10px 20px; /* Adjust padding to increase button size */
 }
+

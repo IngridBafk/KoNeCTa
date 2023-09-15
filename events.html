@@ -16,7 +16,7 @@
         <div class="container-fluid">
             <div class="dropdown" id="dropdown">
                 <a class="navbar-brand" href="index.html"><i class="fas fa-home"></i>Home</a>
-                <a class="navbar-brand" href="#"><i class="fas fa-user"></i>Profile</a>
+                <a class="navbar-brand" href="profile.html"><i class="fas fa-user"></i>Profile</a>
                 <a class="navbar-brand" href="events.html"><i class="fas fa-swatchbook"></i>Events</a>
                 <a class="navbar-brand" href="#"><i class="fas fa-book-open"></i>Register</a>
             </div>
@@ -28,7 +28,21 @@
     <div class="container" id="events">
         <img src="./img/K0N3CT4.png" alt="logo" id="logo">
         <h1>Events</h1>
+
+        <div class="row" id="filter">
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+                <h4>Filter Events:</h4>
+            </div>
+            <div class="col-md-8">
+                <input type="text" id="eventFilter" placeholder="Filter the events list by writing the type of event">
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+        <div id="cardsEvents"></div>
     </div>
+
     <footer>
         <div id="footer">
             <a class="navbar-brand" href="#" target="_blank"></a><i class="fas fa-info"></i>Information
