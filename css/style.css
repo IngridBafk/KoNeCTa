@@ -70,8 +70,14 @@ h1 {
 
 }
 
+#name,
+#surname,
+#email,
 #username,
-#password {
+#password,
+#rpassword,
+#terms,
+#signup {
   margin-bottom: 20px;
 }
 
@@ -116,6 +122,23 @@ h1 {
 #map .col-md-3 .btn.btn-primary {
   font-size: 18px; /* Increase font size to make the button bigger */
   padding: 10px 20px; /* Adjust padding to increase button size */
+}
+
+/* FILTER EVENTS LIST */
+#filter {
+  margin-bottom: 20px;
+}
+
+#filter h4 {
+  color: whitesmoke;
+  text-align: center;
+  line-height: 50px;
+}
+
+#eventFilter {
+  width: 80%; /* Use the entire available width */
+  border-radius: 10px;
+  padding: 10px;
 }
 
 /*------ FOOTER ------*/
