@@ -3,22 +3,67 @@
 body {
   font-family: sans-serif;
   background-color: black;
+  color: whitesmoke;
+  transition: 0.5s ease-in-out;
 }
 
+/*------ NAVBAR ------*/
 #nav {
   font-family: Kaushan Script;
   background-color: #FBC103;
+  color: black;
+  display:flex;
+  justify-content: space-between;
 }
 
 #dropdown a.navbar-brand {
   margin: 0 25px; /* Agregué un poco de margen en los elementos del navbar */
 }
 
+/*------ THEME DARK-LIGHT ------*/
+input[type="checkbox"]{
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background-color: black;
+  appearance: none; /*para quitarle la propiedad de caja*/
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+input[type="checkbox"]:checked{
+  background-color: #B53457;
+}
+input[type="checkbox"]::before{
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: 1s ease;
+}
+input[type="checkbox"]:checked::before{
+  transform: translateX(20px);
+}
+.light-mode{
+  background-color: white;
+  color: black;
+}
+.light-mode #logo {
+  background-image: url(./../img/K0N3CT4L.png);
+  background-repeat: no-repeat;
+  height: 25vh;
+}
+
 #logo {
-  display: flex;
-  margin: 0 auto;
-  align-items: center;
-  height: 35vh;
+  background-image: url(./../img/K0N3CT4.png);
+  background-repeat: no-repeat;
+  height: 25vh;
+  margin-left: 360px;
 }
 
 h1 {
@@ -70,14 +115,8 @@ h1 {
 
 }
 
-#name,
-#surname,
-#email,
 #username,
-#password,
-#rpassword,
-#terms,
-#signup {
+#password {
   margin-bottom: 20px;
 }
 
@@ -145,6 +184,7 @@ h1 {
 #footer{
   text-align: center;
   background-color: #FBC103;
+  color: black;
   height: 7vh;
   align-items: center;
   font-size: 20px;
