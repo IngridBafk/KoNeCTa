@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+#nav {
+  font-family: Kaushan Script;
+  background-color: #FBC103;
+}
+
+#dropdown a.navbar-brand {
+  margin: 0 25px; /* Agregué un poco de margen en los elementos del navbar */
+}
+
+#logo {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  height: 35vh;
+}
+
+h1 {
+  font-family: Kaushan Script;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.card {
+  border: #19E7ED solid 1px;
+}
+
+.custom-img {
+  max-width: auto;
+  height: 100%;
+}
+
+.btn {
+  font-family: Kaushan Script;
+  background-color: #B53457;
+  color: whitesmoke;
+  padding: 1% 5% 1% 5%;
+}
+
+/* LOGIN */
+.form-signin {
+  max-width: 540px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form-signin-heading {
+  margin-bottom: 30px;
+}
+
+.form-signin-footer {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+
+}
+
+#username,
+#password {
+  margin-bottom: 20px;
+}
+
+/* HOME */
+#img{
+  height: 300px;
+}
+#events,
+#profile {
+  width: 65%; /* Establece el ancho deseado para las tarjetas */
+  margin: 0 auto 80px; /* Centra horizontalmente y agrega un margen inferior de 80px */
+}
+
+#map {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  align-items: center;
+}
+
+#events .card-body h3.card-title,
+#profile .card-body h3.card-title {
+  text-align: center;
+}
+
+#events .card-body a.btn-primary,
+#profile .card-body a.btn-primary {
+  display: block; /* Change display to block to center horizontally */
+  margin: 10px auto 10px auto; /* Center horizontally with some vertical spacing */
+}
+
+#map .col-md-7 .card-img-top {
+  border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+}
+
+#map .col-md-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+#map .col-md-3 .btn.btn-primary {
+  font-size: 18px; /* Increase font size to make the button bigger */
+  padding: 10px 20px; /* Adjust padding to increase button size */
+}
+
+/*------ FOOTER ------*/
+#footer{
+  text-align: center;
+  background-color: #FBC103;
+  height: 7vh;
+  align-items: center;
+  font-size: 20px;
+}
+
+#links{
+  margin: 50px;
+}
