@@ -63,7 +63,8 @@ input[type="checkbox"]:checked::before{
   background-image: url(./../img/K0N3CT4.png);
   background-repeat: no-repeat;
   height: 25vh;
-  margin-left: 360px;
+  margin: 0 auto;
+  align-items: center;
 }
 
 h1 {
@@ -88,7 +89,7 @@ h1 {
   padding: 1% 5% 1% 5%;
 }
 
-/* LOGIN */
+/* LOGIN - REGISTER */
 .form-signin {
   max-width: 540px;
   padding: 15px 35px 45px;
@@ -115,8 +116,14 @@ h1 {
 
 }
 
+#name,
+#surname,
+#email,
 #username,
-#password {
+#password,
+#rpassword,
+#terms,
+#signup {
   margin-bottom: 20px;
 }
 
