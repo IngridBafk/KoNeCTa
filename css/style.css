@@ -10,29 +10,43 @@ body {
 /*------ NAVBAR ------*/
 #nav {
   font-family: Kaushan Script;
-  background-color: #FBC103;
+  background-color: #FBC103 !important;
   color: black;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-#dropdown a.navbar-brand {
-  margin: 0 25px;
-  /* Agregué un poco de margen en los elementos del navbar */
+.nav-item {
+  margin: 0 25px; /* Agregué un poco de margen en los elementos del navbar */
+}
+
+.nav-link {
+  text-decoration: none; /* Remove underlines from links */
+  color: black; /* Set link color */
 }
 
 /*------ THEME DARK-LIGHT ------*/
+.dark-mode-toggle {
+  display: flex; /* Display its contents horizontally */
+  align-items: center; /* Vertically center the contents within the navbar */
+  cursor: pointer; /* Change cursor to pointer on hover for better usability */
+  height: 40px; /* Adjust the height as needed */
+  margin: 0 5px; /* Add margin to create spacing */
+}
+
 input[type="checkbox"] {
   position: relative;
   width: 40px;
   height: 20px;
   background-color: black;
-  appearance: none;
-  /*para quitarle la propiedad de caja*/
+  appearance: none; /*para quitarle la propiedad de caja*/
   outline: none;
   border-radius: 20px;
   cursor: pointer;
   transition: 0.5s ease;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 input[type="checkbox"]:checked {
@@ -134,13 +148,18 @@ h1 {
 
 }
 
+#terms {
+  margin: 0 auto !important;
+  text-align: center !important;
+  margin-bottom: 30px !important;
+}
+
 #name,
 #surname,
 #email,
 #username,
 #password,
 #rpassword,
-#terms,
 #signup {
   margin-bottom: 20px;
 }
@@ -163,6 +182,10 @@ h1 {
   margin-bottom: 40px;
   margin-top: 40px;
   align-items: center;
+}
+
+#map img {
+  margin-bottom: 40px;
 }
 
 #events .card-body h3.card-title,
