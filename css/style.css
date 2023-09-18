@@ -12,30 +12,34 @@ body {
   font-family: Kaushan Script;
   background-color: #FBC103;
   color: black;
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
 
 #dropdown a.navbar-brand {
-  margin: 0 25px; /* Agregué un poco de margen en los elementos del navbar */
+  margin: 0 25px;
+  /* Agregué un poco de margen en los elementos del navbar */
 }
 
 /*------ THEME DARK-LIGHT ------*/
-input[type="checkbox"]{
+input[type="checkbox"] {
   position: relative;
   width: 40px;
   height: 20px;
   background-color: black;
-  appearance: none; /*para quitarle la propiedad de caja*/
+  appearance: none;
+  /*para quitarle la propiedad de caja*/
   outline: none;
   border-radius: 20px;
   cursor: pointer;
   transition: 0.5s ease;
 }
-input[type="checkbox"]:checked{
+
+input[type="checkbox"]:checked {
   background-color: #B53457;
 }
-input[type="checkbox"]::before{
+
+input[type="checkbox"]::before {
   content: '';
   position: absolute;
   width: 16px;
@@ -46,24 +50,38 @@ input[type="checkbox"]::before{
   left: 2px;
   transition: 1s ease;
 }
-input[type="checkbox"]:checked::before{
+
+input[type="checkbox"]:checked::before {
   transform: translateX(20px);
 }
-.light-mode{
+
+.light-mode {
   background-color: white;
   color: black;
 }
-.light-mode #logo {
-  background-image: url(./../img/K0N3CT4L.png);
-  background-repeat: no-repeat;
-  height: 25vh;
-}
 
-#logo {
-  background-image: url(./../img/K0N3CT4.png);
-  background-repeat: no-repeat;
+/* Default (dark) mode logo image */
+.logo {
   height: 25vh;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Light mode logo image */
+.light-mode .logo {
+  content: url(./../img/K0N3CT4L.png);
+}
+
+/* Momentáneo mientras no esté el dark/light mode en todas las páginas para centrar el logo */
+#logo {
+  height: 25vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -128,13 +146,16 @@ h1 {
 }
 
 /* HOME */
-#img{
+#img {
   height: 300px;
 }
+
 #events,
 #profile {
-  width: 65%; /* Establece el ancho deseado para las tarjetas */
-  margin: 0 auto 80px; /* Centra horizontalmente y agrega un margen inferior de 80px */
+  width: 65%;
+  /* Establece el ancho deseado para las tarjetas */
+  margin: 0 auto 80px;
+  /* Centra horizontalmente y agrega un margen inferior de 80px */
 }
 
 #map {
@@ -151,23 +172,28 @@ h1 {
 
 #events .card-body a.btn-primary,
 #profile .card-body a.btn-primary {
-  display: block; /* Change display to block to center horizontally */
-  margin: 10px auto 10px auto; /* Center horizontally with some vertical spacing */
+  display: block;
+  /* Change display to block to center horizontally */
+  margin: 10px auto 10px auto;
+  /* Center horizontally with some vertical spacing */
 }
 
 #map .col-md-7 .card-img-top {
-  border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+  border-radius: 10px;
+  /* Adjust the value to control the roundness of the corners */
 }
 
 #map .col-md-3 {
   display: flex;
   align-items: center;
   justify-content: center;
-} 
+}
 
 #map .col-md-3 .btn.btn-primary {
-  font-size: 18px; /* Increase font size to make the button bigger */
-  padding: 10px 20px; /* Adjust padding to increase button size */
+  font-size: 18px;
+  /* Increase font size to make the button bigger */
+  padding: 10px 20px;
+  /* Adjust padding to increase button size */
 }
 
 /* FILTER EVENTS LIST */
@@ -182,13 +208,14 @@ h1 {
 }
 
 #eventFilter {
-  width: 80%; /* Use the entire available width */
+  width: 80%;
+  /* Use the entire available width */
   border-radius: 10px;
   padding: 10px;
 }
 
 /*------ FOOTER ------*/
-#footer{
+#footer {
   text-align: center;
   background-color: #FBC103;
   color: black;
@@ -197,6 +224,6 @@ h1 {
   font-size: 20px;
 }
 
-#links{
+#links {
   margin: 50px;
 }
